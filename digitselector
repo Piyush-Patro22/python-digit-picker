@@ -1,0 +1,13 @@
+n=int(input('enter: '))
+i=0
+a=[]
+z=""
+for j in range(n):
+    i+=1
+    print(i,end='')
+    a.append(i)
+#task2
+y=int(input("\nchoose digit:"))
+for o in range(len(a)):
+    z=z+str(a[o])
+print(z[y-1])
