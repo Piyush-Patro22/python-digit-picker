@@ -1,3 +1,4 @@
+#Task1
 n=int(input('enter: '))
 i=0
 a=[]
